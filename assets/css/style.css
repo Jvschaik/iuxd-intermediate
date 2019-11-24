@@ -1,20 +1,18 @@
-.nav-link, .navbar-brand {
-    color: #FF3366!important;
+.nav-link,
+.navbar-brand {
+    color: #FF3366 !important;
 }
 
 .header {
-    background: 
-    linear-gradient(
-     
-      rgba(245, 245, 245, 0.7),
-      rgba(245, 245, 245, 0.7)
-    ),
-    url(../img/header.jpg) no-repeat center;
-     background-size: cover;
+    background:
+        linear-gradient(rgba(245, 245, 245, 0.7),
+            rgba(245, 245, 245, 0.7)),
+        url(../img/header.jpg) no-repeat center;
+    background-size: cover;
     height: 60vh;
     width: 100%;
     display: table;
-    padding: 0;  
+    padding: 0;
 }
 
 .header h1 {
@@ -24,81 +22,117 @@
     letter-spacing: 0.1em;
 }
 
-.leftside, .rightside {
+.leftside,
+.rightside {
     height: 25vh;
     width: 100%;
 }
 
 @media screen and (min-width: 768px) {
-    .leftside, .rightside {
+
+    .leftside,
+    .rightside {
         height: 50vh;
     }
+
     .header {
         height: 50vh;
     }
+
     .section-2 {
         height: 50vh;
     }
 }
 
 .section-2 {
-    background: #FF3366;
     height: 30vh;
-    color: white;
+    background: #dfe6e9;
+    color: #FF3366;
 }
 
 .section-3 .leftside {
-    background: url(../img/submit.gif) no-repeat center center;   
-}
-.section-3 .rightside {
-    
+    background: url(../img/submit.gif) no-repeat center center;
 }
 
-.section-3 p {
+.section-3 .rightside {
+    position: relative;
+    background: #FF3366;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.section p {
     white-space: pre;
     word-spacing: 0.2em;
     line-height: 1.5em;
     text-align: justify;
-    
+    display: inline-block;
+}
+
+.section h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.section-4 .leftside {
+    position: relative;
+    background: #dfe6e9;
+    color: black;
 }
 
 .section-4 .rightside {
+    background: url(../img/login.gif) no-repeat center center;
+}
+
+.section-5 .rightside {
+    position: relative;
     background: #FF3366;
-    background: url(../img/login.gif) no-repeat center center;   
-}
-
-.section-4 p {
-    white-space: pre;
-    word-spacing: 0.2em;
-    line-height: 1.5em;
-    text-align: justify;
-    
-}
-
-.section-5 p {
-    white-space: pre;
-    word-spacing: 0.2em;
-    line-height: 1.5em;
-    text-align: justify;
-    
+    color: white;
 }
 
 .section-5 .leftside {
-    background: #FF3366;
-    background: url(../img/regels.jpg) no-repeat center center;   
+    background: url(../img/regels.jpg) no-repeat center center;
 }
 
 .section-6 .rightside {
+    background: url(../img/do.gif) no-repeat center center;
+}
+
+.section-6 .leftside {
+    background: #dfe6e9;
+    color: black;
+    position: relative;
+}
+
+.section-7 .rightside {
     background: #FF3366;
-    background: url(../img/do.gif) no-repeat center center;   
+    color: white;
+    position: relative;
 }
 
 .section-7 .leftside {
-    background: #FF3366;
-    background: url(../img/drawing.png) no-repeat center center;   
+    background: url(../img/drawing.png) no-repeat center center;
+    background-size: 80%;
+}
+
+.section-8 .leftside {
+    background: #dfe6e9;
+    color: black;
+    position: relative;
 }
 
 .section-8 .rightside {
-    background: #FF3366;
-    background: url(../img/code.jpg) no-repeat center center;   
+    background: url(../img/code.jpg) no-repeat center center;
+    background-size: 80%;
+}
+
+.page-footer a {
+    color: #FF3366;
 }
