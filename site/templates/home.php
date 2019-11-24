@@ -80,12 +80,22 @@
     <div class="row section-4 no-gutters">
       <div class="col-md-6 no-gutters">
         <div class="leftside d-flex justify-content-center align-items-center">
-          leftside
+          <h2>Waarom speelt dit onderwerp een rol in het ontwerpproces?</h2>
+          <p>
+          Maar waarom is het dan zo belangrijk om deze kleine interacties op je website te hebben? 
+          Volgens Jeliazkov, D. (2018) kun je een hoop frictie in je website weghalen door deze micro interacties te gebruiken. 
+          Via deze micro interactions kun je directe feedback geven aan de gebruiker als hij of zij een actie onderneemt waardoor de feedback duidelijker te begrijpen is. 
+          <br />
+          <br />
+
+          Het is dus slim om na te denken over micro interactions zodat je je ontwerp niet alleen speelser kan maken, 
+          maar er ook voor kan zorgen dat je gebruiker meer aandacht heeft voor je product en dat er minder fouten gemaakt worden.</p>
+
         </div>
       </div>
       <div class="col-md-6 no-gutters">
         <div class="rightside d-flex justify-content-center align-items-center">
-          click right side
+          
         </div>
       </div>
     </div>
@@ -93,12 +103,90 @@
     <div class="row  section-5 no-gutters">
       <div class="col-md-6 no-gutters">
         <div class="leftside d-flex justify-content-center align-items-center">
-          leftside
+          
         </div>
       </div>
       <div class="col-md-6 no-gutters">
         <div class="rightside d-flex justify-content-center align-items-center">
-          click right side
+        <h2>Hoe design je goede micro interacties</h2>
+          <p>Om te controleren of je een goede micro interactie hebt gemaakt moet je kijken naar de 4 regels van Shaffer, D. (2013). 
+            Een product is goed uitgevoerd wanneer het aan alle 4 de regels voldoet.
+            1. Trigger - Een trigger zet je micro interaction tot gaan. 
+              Een voorbeeld hiervan is een knop, een toggle of simpelweg een swipe.
+            2. Rule - Stel op wat het doel is van je micro interactions. 
+              Je moet hierbij aangeven wat de trigger is en wat de actie moet uitvoeren.
+            3. Feedback - Feedback laat aan de gebruiker zien wat er gebeurt tijdens een micro interactie. 
+              Het is een bevestiging van de actie die een gebruiker uitvoert. 
+              De feedback kan van alles zijn, een animatie dat een button groter wordt, van kleur verandert, ergens heen gaat, dat het scherm beweegt, etc. 
+              The sky is the limit.
+            4. Loop/modes - Een loop geeft aan hoe lang duur van een micro transactie is. 
+              Het geeft tevens ook aan of de interactie herhaalt of dat deze verandert na verloop van tijd. 
+              De mode geeft aan wat er verandert tijdens de actie, zoals je telefoon op vliegtuigmodus zetten.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row section-6 no-gutters">
+      <div class="col-md-6 no-gutters">
+        <div class="leftside d-flex justify-content-center align-items-center">
+       <p>Echter zijn er natuurlijk ook meer factoren waar je naar kan kijken. 
+        Volgens Willenskomer, I. (2016) moet je er voor zorgen dat je micro interactie past bij het design van je product. 
+        Zorg dat de micro interacties voorspelbaar zijn. 
+        Als je op een pijltje naar links drukt moet de interactie niet ineens naar rechts gaan. 
+        Een andere tip is om er voor te zorgen dat je alles vanuit 1 beweging kan maken. 
+        En als laatste, entertain the user. Micro interacties zijn hartstikke leuk om te gebruiken. 
+        Je kan veel dingen er mee doen en laat daarom ook je fantasie los. 
+        Als je een micro interactie kan bedenken waarbij je een saaie interactie van veranderen in een interessante en leuke interactie dan zorg je er voor dat de gebruiker meer aandacht heeft en tevens ook een betere ervaring heeft met je product. </p>
+        </div>
+      </div>
+      <div class="col-md-6 no-gutters">
+        <div class="rightside d-flex justify-content-center align-items-center">
+          
+        </div>
+      </div>
+    </div>
+
+    <div class="row section-7 no-gutters">
+      <div class="col-md-6 no-gutters">
+        <div class="leftside d-flex justify-content-center align-items-center">
+ 
+        </div>
+      </div>
+      <div class="col-md-6 no-gutters">
+        <div class="rightside d-flex justify-content-center align-items-center">
+        <h2>Uitwerken</h2>
+        <p>Maar hoe werk je je storyboard uit tot een prototype of echt product?
+          Er zijn verschillende programma’s die je kan gebruiken om microinteractions te maken. 
+          De voornaamste zijn de programma’s Invision Studio en Adobe XD. 
+          Met beide programma’s kun je animaties maken en daarbij ook de micro interactions. 
+          Echter kan je ook met het webplatform Figma aan de slag met animaties, Axure, Flinto of zelfs Powerpoint. 
+          Om de micro interactions uit te werken in web heb je verschillende opties: HTML 5 Canvas, SVG, CSS3 of WebGL.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row section-8 no-gutters">
+      <div class="col-md-6 no-gutters">
+        <div class="leftside d-flex justify-content-center align-items-center">
+            <h2>Coderen</h2>
+            <p>
+            Een nadeel van micro interacties is dat het je website langzamer kan maken. 
+            Echter zijn er 3 tips om er voor te zorgen dat je website zo snel mogelijk blijft. 
+            1. Maak gebruik van requestAnimationFrame() 
+            In plaats van setTimeOut() en setInterval() te gebruiken, maak je gebruik van de native JavaScript-methode requestAnimationFrame() om je animatie code op het beste moment voor de browser uit te voeren. 
+            Deze methode kiest de juiste framesnelheid voor het apparaat van de gebruiker, zodat mobiele bezoekers een andere framesnelheid zien dan de desktop gebruikers.
+            2. Gebruik geen jQuery
+            Andere libraries zoals Velocity.js en WebGL werkt op dezelfde manier maar een vele malen sneller, vooral voor mobiele gebruikers.
+            3. Clean code
+            Zorg ervoor dat je code “clean” is. Dit zorgt ervoor dat je geen onnodige code hebt wat voor de traagheid van je animatie zorgt. 
+
+            </p>
+        </div>
+      </div>
+      <div class="col-md-6 no-gutters">
+        <div class="rightside d-flex justify-content-center align-items-center">
+          
         </div>
       </div>
     </div>
@@ -107,6 +195,11 @@
       <div class="col">
         <div class="section-2 d-flex justify-content-center align-items-center">
           <h1>Conclusie</h1>
+          <p>Micro interacties zijn hele leuke interacties om te ontwerpen. 
+            Je kan je fantasie los laten op deze animaties en daardoor kan je je gebruiker ook “betoveren”. 
+            Echter moet je wel oppassen dat je niet te ver gaat. 
+            De micro interacties moeten natuurlijk aanvoelen en niet in de weg van het doel van je gebruiker zitten. 
+            Als je een goed ontwerpen micro interactie hebt kun je er voor zorgen dat je gebruiker beter de website kan gebruiken, dat er meer mogelijkheden zijn tot interactie en dat je website ook veel speelser aan voelt.</p>
         </div>
       </div>
     </div>
