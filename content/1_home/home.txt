@@ -1,9 +1,3 @@
-Title: My Awesome IUXD Topic
+Title: Microinteractions
 
 ----
-
-Text:
-
-Hi IUXD Student, this is the IUXD-Intermediate Template Repository.
-
-As you can see Kirby and Bootstrap have been provided. Good luck with realising the 0.1 one pager!
