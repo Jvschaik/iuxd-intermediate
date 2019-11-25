@@ -58,17 +58,14 @@
         <div class="leftside d-flex justify-content-center align-items-center">
         </div>
       </div>
-      <div class="col-md-6 no-gutters">
-        <div class="rightside justify-content-center align-items-center">
-          <div class="centered section">
-            <div class="row">
-              <div class="col">
+      <div class="col-md-6  no-gutters">
+        <div class="rightside d-flex justify-content-center align-items-center">
+          <div class="col-xs-1 centered section">
+           
                 <h2>Wat zijn micro microinteractions?</h2>
-              </div>
-            </div>
+            
 
-            <div class="row">
-              <div class="col">
+          
                 <p>
                   Micro interacties zijn zoals de naam al zegt, hele kleine interacties.
                   De micro interacties voeren 1 specifieke taak uit waarbij met gebruik van een animatie aan
@@ -80,8 +77,7 @@
                   de achtergrond van de knop van grijs naar een andere kleur.
                   Er is dus 1 taak wat er uitgevoerd wordt tijdens deze interactie en middels een animatie van zowel het
                   schuifje als de kleur wordt aangeven wat er gebeurt tijdens de interactie.</p>
-              </div>
-            </div>
+             
           </div>
         </div>
       </div>
@@ -89,9 +85,9 @@
 
     <div class="row section-4 no-gutters">
       <div class="col-md-6 no-gutters">
-        <div class="leftside justify-content-center align-items-center">
+        <div class="leftside d-flex justify-content-center align-items-center">
 
-          <div class="centered section">
+          <div class="col-xs-1 centered section">
             <div class="row">
               <div class="col">
                 <h2>Waarom speelt dit onderwerp een rol in het ontwerpproces?</h2>
@@ -127,9 +123,9 @@
         </div>
       </div>
       <div class="col-md-6 no-gutters">
-        <div class="rightside justify-content-center align-items-center">
+        <div class="rightside d-flex justify-content-center align-items-center">
 
-          <div class="centered section">
+          <div class="col-xs-1 centered section">
             <div class="row">
               <div class="col">
                 <h2>Hoe design je goede micro interacties</h2>
@@ -168,7 +164,7 @@
     <div class="row section-6 no-gutters">
       <div class="col-md-6 no-gutters">
         <div class="leftside d-flex justify-content-center align-items-center">
-          <div class="centered section">
+          <div class="col-xs-1 centered section">
             <div class=“row”>
               <div class=“col”>
                 <p>
@@ -201,8 +197,8 @@
       </div>
 
       <div class="col-md-6 no-gutters">
-        <div class="rightside justify-content-center align-items-center">
-          <div class="centered section">
+        <div class="rightside d-flex justify-content-center align-items-center">
+          <div class="col-xs-1 centered section">
             <div class=“row”>
               <div class=“col”>
                 <h2>Uitwerken</h2>
@@ -229,7 +225,7 @@
     <div class="row section-8 no-gutters">
       <div class="col-md-6 no-gutters">
         <div class="leftside d-flex justify-content-center align-items-center">
-          <div class="centered section">
+          <div class="col-xs-1 centered section">
             <div class=“row”>
               <div class=“col”>
                 <h2>Coderen</h2>
@@ -269,9 +265,9 @@
     </div>
     <div class="row">
       <div class="col">
-        <div class="section-2 section justify-content-center align-items-center">
+        <div class="section-2 section d-flex justify-content-center align-items-center">
 
-          <div class="centered">
+          <div class="col-xs-1 centered ">
             <div class="row">
               <div class="col">
                 <h2>Conclusie</h2>
