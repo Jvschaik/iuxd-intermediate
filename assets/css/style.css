@@ -20,7 +20,7 @@
 }
 
 .header h1 {
-    color: black;
+    color: pink;
     font-weight: 900;
     font-size: 70px;
     letter-spacing: 0.1em;
@@ -48,6 +48,27 @@
     }
 }
 
+.centered {
+    padding: 60px;
+ }
+ 
+ .section p {
+     font-size: 17px;
+     word-spacing: 0.3em;
+     line-height: 1.7em;
+     display: inline-block;
+ }
+ 
+ .section h2 {
+     font-size: 28px;
+     margin-bottom: 15px;
+ }
+
+.section-1 {
+    padding-left: 18vh;
+    padding-right: 18vh;
+}
+
 .section-2 {
     height: 30vh;
     background: #dfe6e9;
@@ -56,81 +77,54 @@
 
 .section-3 .leftside {
     background: url(../img/submit.gif) no-repeat center center;
+    background-color: #EBECED;
 }
 
-.section-3 .rightside {
+.section-3 .rightside{
+    background-color: #EBECED;
     position: relative;
-    background: #FF3366;
-    color: white;
+    padding-right: 8vh;
 }
-
-.centered {
-   padding: 60px;
-}
-
-.section p {
-    font-size: 17px;
-    word-spacing: 0.3em;
-    line-height: 1.7em;
-    display: inline-block;
-}
-
-.section h2 {
-    font-size: 28px;
-    margin-bottom: 15px;
-}
-
-
 .section-4 .leftside {
     position: relative;
-    background: #dfe6e9;
-    color: black;
+    padding-left: 18vh;
+    background-color: white
 }
 
-.section-4 .rightside {
-    background: url(../img/login.gif) no-repeat center center;
-}
-
-.section-5 .rightside {
+.section-4 .rightside{
     position: relative;
-    background: #FF3366;
-    color: white;
+    padding-right: 18vh;
+    background-color: white
 }
 
-.section-5 .leftside {
-    background: url(../img/regels.jpg) no-repeat center center;
+.section-5 {
+    background-color: #EBECED;
+    padding-left: 18vh;
+    padding-right: 18vh;
 }
 
 .section-6 .rightside {
-    background: url(../img/do.gif) no-repeat center center;
+    background: url(../img/Login-explanation.gif) no-repeat center center;
 }
 
 .section-6 .leftside {
-    background: #dfe6e9;
+    background: white;
     color: black;
     position: relative;
 }
 
-.section-7 .rightside {
-    background: #FF3366;
-    color: white;
-    position: relative;
+.section-7 {
+    background-color: #EBECED;
+    padding-left: 18vh;
+    padding-right: 18vh;
 }
 
-.section-7 .leftside {
-    background: url(../img/drawing.png) no-repeat center center;
-    background-size: 80%;
-}
-
-.section-8 .leftside {
-    background: #dfe6e9;
+.section-8 {
+    background: white;
     color: black;
     position: relative;
-}
-
-.section-8 .rightside {
-    background: url(../img/code.jpg) no-repeat center center;
-    background-size: 80%;
+    padding-left: 18vh;
+    padding-right: 18vh;
 }
 
 .page-footer a {
