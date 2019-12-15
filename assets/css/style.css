@@ -1,29 +1,28 @@
+:root {
+    --grey: #ebeced;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
 .nav-link,
 .navbar-brand {
-    color: #FF3366 !important;
+    color: black !important;
 }
 
 .navbar {
     box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.495);
+    background-color: var(--grey);
 }
 
 .header {
-    background:
-        linear-gradient(rgba(245, 245, 245, 0.7),
-            rgba(245, 245, 245, 0.7)),
-        url(../img/header.jpg) no-repeat center;
+    background: url(../img/header.jpg) no-repeat center;
     background-size: cover;
-    height: 60vh;
+    height: 100vh;
     width: 100%;
     display: table;
     padding: 0;
-}
-
-.header h1 {
-    color: pink;
-    font-weight: 900;
-    font-size: 70px;
-    letter-spacing: 0.1em;
 }
 
 .leftside,
@@ -33,13 +32,11 @@
 }
 
 @media screen and (min-width: 768px) {
-
+ p {
+     font-size: 1.1vw;
+ }
     .leftside,
     .rightside {
-        height: 50vh;
-    }
-
-    .header {
         height: 50vh;
     }
 
@@ -48,57 +45,55 @@
     }
 }
 
-.centered {
-    padding: 60px;
- }
- 
- .section p {
-     font-size: 17px;
-     word-spacing: 0.3em;
-     line-height: 1.7em;
-     display: inline-block;
- }
- 
- .section h2 {
-     font-size: 28px;
-     margin-bottom: 15px;
- }
-
-.section-1 {
-    padding-left: 18vh;
-    padding-right: 18vh;
+.section{
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 6vw;
 }
 
-.section-2 {
-    height: 30vh;
-    background: #dfe6e9;
-    color: #FF3366;
+.section p {
+    word-spacing: 0.3em;
+    line-height: 1.7em;
+    display: inline-block;
+    font-size: 1vw
+
 }
+
+.section h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
 
 .section-3 .leftside {
-    background: url(../img/submit.gif) no-repeat center center;
-    background-color: #EBECED;
+    background: url(../img/submit.gif) no-repeat center center
 }
 
-.section-3 .rightside{
-    background-color: #EBECED;
-    position: relative;
-    padding-right: 8vh;
+.section-3 .rightside {
+    background-color: var(--grey);
 }
+
 .section-4 .leftside {
     position: relative;
     padding-left: 18vh;
     background-color: white
 }
 
-.section-4 .rightside{
+.section-4 .rightside {
     position: relative;
     padding-right: 18vh;
     background-color: white
 }
 
 .section-5 {
-    background-color: #EBECED;
+    background-color: var(--grey);
+    padding-left: 18vh;
+    padding-right: 18vh;
+}
+
+.section-5-1 {
+    background-color:var(--grey);
     padding-left: 18vh;
     padding-right: 18vh;
 }
@@ -114,7 +109,7 @@
 }
 
 .section-7 {
-    background-color: #EBECED;
+    background-color: var(--grey);
     padding-left: 18vh;
     padding-right: 18vh;
 }
@@ -127,6 +122,10 @@
     padding-right: 18vh;
 }
 
+.page-footer {
+    background-color: var(--grey)
+}
+
 .page-footer a {
-    color: #FF3366;
+    color: black;
 }

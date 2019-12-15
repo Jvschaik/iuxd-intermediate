@@ -8,14 +8,15 @@
 
     <!-- Bootstrap CSS -->
     <?= css(['assets/css/style.css', '@auto']) ?>
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title><?= $page->title() ?></title>
   </head>
 
   <body>
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#"><?= $page->title() ?></a>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="#"><?= $page->title() ?></a>
       <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
@@ -40,15 +41,15 @@
     <div class="row">
       <div class="col">
         <div class="header d-flex justify-content-center align-items-center">
-          <h1>Microinteractions</h1>
         </div>
       </div>
     </div>
+   
+   
     <div class="row">
       <div class="col">
         <div class="section-1 section d-flex justify-content-center align-items-center">
-
-          <div class="col-xs-1 centered ">
+          <div class="col-xs-12">
             <div class="row">
               <div class="col">
                 <h2>Introductie</h2>
@@ -69,18 +70,16 @@
     
 
     <div class="row section-3 no-gutters">
-      <div class="col-md-6 no-gutters">
+      <div class=" col-xs-12 col-md-6 no-gutters">
         <div class="leftside d-flex justify-content-center align-items-center">
         </div>
       </div>
-      <div class="col-md-6  no-gutters">
+      <div class="col-xs-12 col-md-6 no-gutters">
         <div class="rightside d-flex justify-content-center align-items-center">
-          <div class="col-xs-1 centered section">
-           
-                <h2>Wat zijn micro microinteractions?</h2>
-            
+          <div class="col-xs-12 section">
 
-          
+                <h2>Wat zijn micro microinteractions?</h2>
+
                 <p>
                   Micro interacties zijn zoals de naam al zegt, hele kleine interacties.
                   De micro interacties voeren 1 specifieke taak uit waarbij met gebruik van een animatie aan
@@ -99,10 +98,11 @@
     </div>
 
     <div class="row section-4 no-gutters">
-    <div class="col-md-6  no-gutters">
+    <h2>Waarom speelt dit onderwerp een rol in het ontwerpproces?</h2>
+    <div class="col-xs-12 col-md-6  no-gutters">
         <div class="leftside d-flex justify-content-center align-items-center">
-          <div class="col-xs-1 centered section">
-            <h2>Waarom speelt dit onderwerp een rol in het ontwerpproces?</h2>
+          <div class="col-xs-1  section">
+            
               <p>
               Maar waarom is het dan zo belangrijk om deze kleine interacties op je website te hebben? 
               Volgens Jeliazkov, D. (2018) kun je een hoop frictie in je website weghalen door deze micro interacties te gebruiken. 
@@ -110,9 +110,9 @@
           </div>
         </div>
       </div>
-      <div class="col-md-6  no-gutters">
+      <div class="col-xs-12  col-md-6  no-gutters">
         <div class="rightside d-flex justify-content-center align-items-center">
-          <div class="col-xs-1 centered section">
+          <div class="col-xs-12 section">
                 <p>
                 Het is dus slim om na te denken over micro interactions zodat je je ontwerp niet alleen speelser 
                 kan maken, maar er ook voor kan zorgen dat je gebruiker meer aandacht heeft voor je product en 
@@ -124,7 +124,7 @@
     </div>
 
     <div class="row section-5 no-gutters">
-      <div class="col-xs-1 centered section">
+      <div class="col-xs-12 centered section">
           <div class=“row”>
             <div class=“col”>
               <h2>4 regels van Micro interactions</h2>              
@@ -136,44 +136,65 @@
               </div>
             </div>
           </div>
-        <div class="col-md-3 no-gutters">
+      </div>
+          
+
+      <div class="row section-5-1 no-gutters">
+        <div class=" col-xs-12 col-md-3 no-gutters">
           <div class="leftside d-flex justify-content-center align-items-center">
+            <div class="pl-1">
             <h2>Trigger</h2>
             <p>
               Een trigger zet je micro interaction tot gaan. Een voorbeeld hiervan is een knop, 
               een toggle of simpelweg een swipe.
              </p>
+             </div>
           </div>
         </div>
-      <div class="col-md-3 no-gutters">
+
+      <div class="col-xs-12 col-md-3 no-gutters">
         <div class="leftside d-flex justify-content-center align-items-center">
+          <div>
           <h2>Rule</h2>
             <p>
             Stel op wat het doel is van je micro interactions. Je moet hierbij aangeven wat de 
             trigger is en wat de actie moet uitvoeren. 
             </p>
+            </div>
           </div>
         </div>
-      <div class="col-md-3 no-gutters">
+
+      <div class="col-xs-12 col-md-3 no-gutters">
         <div class="leftside d-flex justify-content-center align-items-center">
+        <div>
           <h2>Feedback</h2>
           <p>
             Feedback - Feedback laat aan de gebruiker zien wat er gebeurt tijdens een micro 
             interactie. Een voorbeeld is een animatie van een button die groen kleurt.
           </p>
+          </div>
+          </div>
         </div>
-      </div>
-      <div class="col-md-3 no-gutters">
+
+      <div class="col-xs-12 col-md-3 no-gutters">
         <div class="leftside d-flex justify-content-center align-items-center">
+        <div>
           <h2>Loop/modes</h2>
           <p>
             Loop/modes - Een loop geeft aan hoe lang duur van een micro transactie is. 
             Het geeft tevens ook aan of de interactie herhaalt of dat deze verandert na verloop 
             van tijd. 
           </p>
+          </div>
         </div>
-      </div>
-    </div>
+        </div
+  </div>
+</div>
+
+
+
+
+
 
     <div class="row section-6 no-gutters">
       <div class="col-md-6 no-gutters">
@@ -205,7 +226,7 @@
     </div>
 
     <div class="row section-7 no-gutters">
-      <div class="col-xs-1 centered section">
+      <div class="col-xs-12 centered section">
           <div class=“row”>
             <div class=“col”>
               <h2>Coderen</h2>              
@@ -216,29 +237,36 @@
               </div>
             </div>
           </div>
-        <div class="col-md-4 no-gutters">
+
+        <div class="col-xs-12 col-md-4 no-gutters">
           <div class="leftside d-flex justify-content-center align-items-center">
+          <div class="pr-3">
             <h2>Native Javascript</h2>
             <p>Maak gebruik van requestAnimationFrame() in plaats van setTimeOut() en setInterval() 
               te gebruiken, maak je gebruik van de native JavaScript-methode requestAnimationFrame() 
               om je animatie code op het beste moment voor de browser uit te voeren.
              </p>
+             </div>
           </div>
         </div>
-      <div class="col-md-4 no-gutters">
+      <div class="col-xs-12 col-md-4 no-gutters">
         <div class="leftside d-flex justify-content-center align-items-center">
+        <div class="pr-3">
           <h2>Geen jQuery</h2>
             <p>Gebruik geen jQuery. Andere libraries zoals Velocity.js en WebGL werkt op dezelfde 
               manier maar een vele malen sneller, vooral voor mobiele gebruikers.
             </p>
+            </div>
           </div>
         </div>
-      <div class="col-md-4 no-gutters">
+      <div class="col-xs-12 col-md-4 no-gutters">
         <div class="leftside d-flex justify-content-center align-items-center">
+        <div class="pr-3">
           <h2>Clean code</h2>
           <p>Zorg ervoor dat je code “clean” is. Dit zorgt ervoor dat je geen onnodige code hebt 
             wat voor de traagheid van je animatie zorgt. 
           </p>
+          </div>
         </div>
       </div>
     </div>
@@ -247,7 +275,7 @@
       <div class="col">
         <div class="section-8 section d-flex justify-content-center align-items-center">
 
-          <div class="col-xs-1 centered ">
+          <div class="col-xs-12 centered ">
             <div class="row">
               <div class="col">
                 <h2>Conclusie</h2>
