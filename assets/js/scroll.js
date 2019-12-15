@@ -1,6 +1,5 @@
 $(document).ready(function(){
     setBindings();
-    clickButton();
 });
 
 function setBindings() {
@@ -12,14 +11,6 @@ function setBindings() {
              scrollTop: $("#" + sectionID).offset().top
         }, 1000)
     })
-}
-
-function clickButton() {
-    $(".button").click(function() {
-        $('html, body').animate({
-            scrollTop: $("#aboutSection").offset().top
-        }, 1000);
-    });
 }
 
 
