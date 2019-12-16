@@ -119,7 +119,7 @@
                 Het is dus slim om na te denken over micro interactions zodat je je ontwerp niet alleen speelser 
                 kan maken, maar er ook voor kan zorgen dat je gebruiker meer aandacht heeft voor je product en 
                 dat er minder fouten gemaakt worden.</p>
-             
+            
           </div>
         </div>
       </div>
@@ -140,7 +140,7 @@
           </div>
       </div>
           
-
+test 
       <div class="row section-5-1 no-gutters">
         <div class=" col-xs-12 col-md-3 no-gutters">
           <div class="leftside d-flex justify-content-center align-items-center">
