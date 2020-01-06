@@ -28,107 +28,14 @@
     padding: 0;
 }
 
-.leftside,
-.rightside {
-    height: 25vh;
-    width: 100%;
-}
-
-@media screen and (min-width: 768px) {
- p {
-     font-size: 1.1vw;
- }
-    .leftside,
-    .rightside {
-        height: 50vh;
-    }
-
-    .section-2 {
-        height: 50vh;
-    }
-}
-
-.section{
-    text-align: left;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 6vw;
-}
-
-.section p {
-    word-spacing: 0.3em;
-    line-height: 1.7em;
-    display: inline-block;
-    font-size: 1vw
-
-}
-
-.section h2 {
-    font-size: 28px;
-    margin-bottom: 15px;
-}
-
-
-.section-3 .leftside {
-    background: url(../img/submit.gif) no-repeat center center
-}
-
-.section-3 .rightside {
-    background-color: var(--grey);
-}
-
-.section-4 .leftside {
-    position: relative;
-    padding-left: 18vh;
-    background-color: white
-}
-
-.section-4 .rightside {
-    position: relative;
-    padding-right: 18vh;
-    background-color: white
-}
-
-.section-5 {
-    background-color: var(--grey);
-    padding-left: 18vh;
-    padding-right: 18vh;
-}
-
-.section-5-1 {
-    background-color:var(--grey);
-    padding-left: 18vh;
-    padding-right: 18vh;
-}
-
-.section-6 .rightside {
-    background: url(../img/Login-explanation.gif) no-repeat center center;
-}
-
-.section-6 .leftside {
-    background: white;
-    color: black;
-    position: relative;
-}
-
-.section-7 {
-    background-color: var(--grey);
-    padding-left: 18vh;
-    padding-right: 18vh;
-}
-
-.section-8 {
-    background: white;
-    color: black;
-    position: relative;
-    padding-left: 18vh;
-    padding-right: 18vh;
-}
-
 .page-footer {
     background-color: var(--grey)
 }
 
 .page-footer a {
     color: black;
+}
+
+.background {
+    padding: 75px 0px;
 }
