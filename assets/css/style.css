@@ -28,6 +28,23 @@
     padding: 0;
 }
 
+.image-1 {
+    background: url(../img/submit.gif) no-repeat center;
+}
+
+.image-2 {
+    background: url(../img/regels.jpg) no-repeat center;
+}
+
+.header-image {
+    background: url(../img/drawing.png) no-repeat center;
+    background-size: cover;
+    height: 20vh;
+    width: 100%;
+    display: table;
+    padding: 0;
+}
+
 .page-footer {
     background-color: var(--grey)
 }
@@ -38,4 +55,8 @@
 
 .background {
     padding: 75px 0px;
+}
+
+.grey {
+    background-color: var(--grey)
 }
