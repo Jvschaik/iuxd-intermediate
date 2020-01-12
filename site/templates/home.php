@@ -37,35 +37,10 @@
         </ul>
       </nav>
 
-
-      <!-- <nav class="navbar fixed-top navbar-expand-lg navbar-light">
-      <li class="nav-item">
-        <a class="navbar-brand" id="home" href="#homeSection"></a>
-      </li>
-      <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" id="introduction" href="#introductionSection">Introduction</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" id="rules" href="#rulesSection">Rules</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" id="rules" href="#rulesSection">Tools</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" id="code" href="#codeSection">Coderen</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" id="conclusion" href="#conclusionSection">Conclusion</a>
-          </li>
-        </ul>
-      </div>
-    </nav> -->
-
       <div class="row" id="homeSection">
         <div class="col">
           <div class="header d-flex justify-content-center align-items-center">
+            <h1>Microinteractions</h1>
           </div>
         </div>
       </div>
