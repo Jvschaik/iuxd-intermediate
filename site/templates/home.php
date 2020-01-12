@@ -15,9 +15,32 @@
   </head>
 
   <body>
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light">
+
+    <div class="navigation">
+      <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+      <label for="navi-toggle" class="navigation__button">
+        <span class="navigation__icon">&nbsp;</span>
+      </label>
+      <div class="navigation__background">&nbsp;</div>
+      <nav class="navigation__nav">
+        <ul class="navigation__list">
+          <li class="navigation__item"><a href="introducionSection" id="introduction"
+              class="navigation__link"><span>01</span>Introductie</a></li>
+          <li class="navigation__item"><a href="rulesSection" id="rules"
+              class="navigation__link"><span>02</span>Regels</a></li>
+          <li class="navigation__item"><a href="toolsSection" id="tools"
+              class="navigation__link"><span>03</span>Tools</a></li>
+          <li class="navigation__item"><a href="coderenSection" id="coderen"
+              class="navigation__link"><span>04</span>Coderen</a></li>
+          <li class="navigation__item"><a href="conclusieSection" id="conclusie"
+              class="navigation__link"><span>05</span>Conclusie</a></li>
+        </ul>
+      </nav>
+
+
+      <!-- <nav class="navbar fixed-top navbar-expand-lg navbar-light">
       <li class="nav-item">
-        <a class="navbar-brand" id="home" href="#homeSection"><?= $page->title() ?></a>
+        <a class="navbar-brand" id="home" href="#homeSection"></a>
       </li>
       <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
         <ul class="navbar-nav ml-auto">
@@ -38,57 +61,54 @@
           </li>
         </ul>
       </div>
-    </nav>
+    </nav> -->
 
-    <div class="row" id="homeSection">
-      <div class="col">
-        <div class="header d-flex justify-content-center align-items-center">
-        </div>
-      </div>
-    </div>
-
-
-    <div class="container-fluid background" id="introductionSection">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <h1>Introductie</h1>
-            <p>Micro Interacties is een deel van interaction design wat steeds belangrijker wordt in het ontwerpen van
-              je digitale producten.
-              Dit komt voornamelijk door de verbetering in technologie en natuurlijk ook de verbetering in de
-              interaction design. </p>
+      <div class="row" id="homeSection">
+        <div class="col">
+          <div class="header d-flex justify-content-center align-items-center">
           </div>
         </div>
       </div>
-    </div>
 
-    <div class="container-fluid grey">
-      <div class="container-fluid background">
-        <div class="container d-flex h-100">
+
+      <div class="container-fluid background" id="introductionSection">
+        <div class="container">
           <div class="row">
-            <div class="col-md-6 image-1">
-            </div>
-            <div class="col-md-6">
-              <h2>Wat zijn micro microinteractions?</h2>
-              <p>
-                Micro interacties zijn zoals de naam al zegt, hele kleine interacties.
-                De micro interacties voeren 1 specifieke taak uit waarbij met gebruik van een animatie aan
-                de gebruiker doorgegeven wordt wat er precies gebeurt tijdens de uitgevoerde taak.
-                Het zijn kleine details in je digitale product die er voor zorgen dat de gebruiker een
-                betere ervaring ervaart tijdens het gebruik van je product.
-                Een voorbeeld van een micro interactie kan de airplane modus knop op je telefoon zijn.
-                Als je op deze knop klikt verschuift het schuifje op de knop naar de andere kant en kleurt
-                de achtergrond van de knop van grijs naar een andere kleur.
-                Er is dus 1 taak wat er uitgevoerd wordt tijdens deze interactie en middels een animatie van zowel het
-                schuifje als de kleur wordt aangeven wat er gebeurt tijdens de interactie.</p>
+            <div class="col-md-12">
+              <h1>Introductie</h1>
+              <p>Micro Interacties is een deel van interaction design wat steeds belangrijker wordt in het ontwerpen van
+                je digitale producten.
+                Dit komt voornamelijk door de verbetering in technologie en natuurlijk ook de verbetering in de
+                interaction design. </p>
             </div>
           </div>
         </div>
       </div>
-    </div>
 
-    <div class="container-fluid">
-      <div class="header-image"></div>
+      <div class="container-fluid grey">
+        <div class="container-fluid background">
+          <div class="container d-flex h-100">
+            <div class="row">
+              <div class="col-md-6 image-1">
+              </div>
+              <div class="col-md-6">
+                <h2>Wat zijn micro microinteractions?</h2>
+                <p>
+                  Micro interacties zijn zoals de naam al zegt, hele kleine interacties.
+                  De micro interacties voeren 1 specifieke taak uit waarbij met gebruik van een animatie aan
+                  de gebruiker doorgegeven wordt wat er precies gebeurt tijdens de uitgevoerde taak.
+                  Het zijn kleine details in je digitale product die er voor zorgen dat de gebruiker een
+                  betere ervaring ervaart tijdens het gebruik van je product.
+                  Een voorbeeld van een micro interactie kan de airplane modus knop op je telefoon zijn.
+                  Als je op deze knop klikt verschuift het schuifje op de knop naar de andere kant en kleurt
+                  de achtergrond van de knop van grijs naar een andere kleur.
+                  Er is dus 1 taak wat er uitgevoerd wordt tijdens deze interactie en middels een animatie van zowel het
+                  schuifje als de kleur wordt aangeven wat er gebeurt tijdens de interactie.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
       <div class="container-fluid background">
         <div class="container">
@@ -121,7 +141,7 @@
         </div>
       </div>
 
-      <div class="container-fluid grey">
+      <div class="container-fluid grey _b-img" id="rulesSection">
         <div class="container-fluid background">
           <div class="container">
             <div class="row">
@@ -199,7 +219,9 @@
         </div>
       </div>
 
-      <div class="container-fluid grey">
+     
+      
+      <div class="container-fluid grey b-img" id="coderenSection">
         <div class="container-fluid background">
           <div class="container">
             <div class="row">
@@ -242,7 +264,10 @@
         </div>
       </div>
 
-      <div class="container-fluid background">
+      <div class="container-fluid">
+        <div class="___header-image"></div>
+      </div>
+      <div class="container-fluid background" id="conclusieSection">
         <div class="container">
           <div class="row">
             <div class="col-md-12">
