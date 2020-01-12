@@ -37,14 +37,12 @@
 }
 
 ._b-img {
-  background: rgb(111, 198, 213);
-  background: linear-gradient(173deg, rgba(111, 198, 213, 1) 0%, rgba(40, 84, 180, 1) 100%);
+  background: linear-gradient(to bottom right, rgba(114, 146, 166, 1) 0%, rgba(161, 185, 187, 1) 100%);
   color: white;
 }
 
 .b-img {
-  background: -webkit-linear-gradient(rgba(111, 198, 213, 0.6), rgba(40, 84, 180, 0.6)), url(../img/coding.jpeg);
-  background: linear-gradient(rgba(111, 198, 213, 0.6), rgba(40, 84, 180, 0.6)), url(../img/coding.jpeg);
+  background: linear-gradient(to bottom right, rgba(114, 146, 166, 1) 0%, rgba(161, 185, 187, 1) 100%);
   background-size: cover;
   color: white;
 }
@@ -59,6 +57,10 @@
 
 .background {
   padding: 75px 0px;
+}
+
+._background {
+    padding: 20px 0 75px 0;
 }
 
 .grey {
@@ -104,7 +106,7 @@
   position: fixed;
   top: 3.5rem;
   right: 3.5rem;
-  background-image: radial-gradient(#6fc6d5, #2854b4);
+  background-image: radial-gradient( rgba(114, 146, 166, 1) 0%, rgba(161, 185, 187, 1) 100%);
   z-index: 1000;
   transition: transform 0.8s cubic-bezier(0.86, 0, 0.07, 1);
 }

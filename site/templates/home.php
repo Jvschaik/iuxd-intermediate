@@ -85,7 +85,7 @@
         </div>
       </div>
 
-      <div class="container-fluid grey">
+      <div class="container-fluid grey _b-img">
         <div class="container-fluid background">
           <div class="container d-flex h-100">
             <div class="row">
@@ -158,7 +158,7 @@
         </div>
 
 
-        <div class="container-fluid background">
+        <div class="container-fluid _background">
           <div class="container d-flex h-100">
             <div class="row">
               <div class="col-md-3">
@@ -237,7 +237,7 @@
         </div>
 
 
-        <div class="container-fluid background">
+        <div class="container-fluid _background">
           <div class="container d-flex h-100">
             <div class="row">
               <div class="col-md-4">
