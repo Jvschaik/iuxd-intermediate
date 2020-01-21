@@ -11,6 +11,10 @@ body {
   overflow-x: hidden;
 }
 
+p {
+  line-height: 2rem; 
+}
+
 /* .nav-link,
 .navbar-brand {
     color: black !important;
@@ -250,7 +254,7 @@ body {
   top: 0;
   transform: rotate(-135deg);
 }
- 
+
 .bronnen ul {
   padding-left: 0;
 }
