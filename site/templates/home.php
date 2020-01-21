@@ -264,6 +264,38 @@
         </div>
       </div>
 
+      <div class="container-fluid background _b-img bronnen" id="conclusieSection">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h1>Bronnen</h1>
+              <ul>
+              <li> Gunasekaran , S. (2016). Submit Button - Micro Interaction [GIF]. Retrieved from</li> 
+              <a href="https://dribbble.com/shots/2970590-Submit-Button-Micro-Interaction?utm_source=Clipboard_Shot&utm_campaign=Sailesh&utm_content=Submit%20Button%20-%20Micro%20Interaction&utm_medium=Social_Share" target="blank">https://dribbble.com/shots/2970590-Submit-Button-Micro-Interaction?utm_source=Clipboard_Shot&utm_campaign=Sailesh&utm_content=Submit%20Button%20-%20Micro%20Interaction&utm_medium=Social_Share</a>
+              <li>Saffer, D. (2013). Microinteractions (Full Color Edition). USA: O’Reilly Media, Inc, Usa.</li>
+              <li>Jeliazkov, D. (2018, September 17). Creating meaningful micro-interactions. Retrieved October 4, 2019, from</li>
+              <a href="https://uxplanet.org/creating-meaningful-micro-interactions-99cbde1fbee7" target="blank">https://uxplanet.org/creating-meaningful-micro-interactions-99cbde1fbee7</a>
+              <li>Dostál, O. (z.d.). Better UX Through Microinteractions. Retrieved November 4, 2019, from </li>
+              <a href="https://www.toptal.com/designers/product-design/microinteractions-better-ux" target="blank">https://www.toptal.com/designers/product-design/microinteractions-better-ux</a>
+              <li>Chichioco, A. (2018, April 22). Utilizing Microinteractions To Enhance Your UX Design. Retrieved November 4, 2019, from </li>
+              <a href="https://usabilitygeek.com/microinteractions-enhance-ux-design/" target="blank">https://usabilitygeek.com/microinteractions-enhance-ux-design/</a>
+              <li>Prototypr.io. (2016, October 16). The 4 Components of a Microinteraction. Retrieved October 4, 2019, from</li>
+              <a href="https://blog.prototypr.io/the-4-components-of-a-microinteraction-836732173c7c" target="blank">https://blog.prototypr.io/the-4-components-of-a-microinteraction-836732173c7c</a>
+              <li>Costa, R. (2018, January 4). The beginner’s guide to mobile microinteractions. Retrieved November 4, 2019, from </li>
+              <a href="https://www.justinmind.com/blog/microinteractions-beginners-guide/" target="blank">https://www.justinmind.com/blog/microinteractions-beginners-guide/</a>
+              <li>Kim, K. (2017, August 16). Bringing Micro-Interaction & UI Animation to Life Through Developer–Designer Collaborations. Retrieved November 4, 2019, from </li>
+              <a href="https://medium.com/capital-one-tech/bringing-delightful-micro-interaction-and-ui-animation-to-life-through-developer-designer-3c409bc326f" target="blank">https://medium.com/capital-one-tech/bringing-delightful-micro-interaction-and-ui-animation-to-life-through-developer-designer-3c409bc326f</a>
+              <li>de Kaste, M. (2019, 3 februari). Micro-Interacties: Het zijn de kleine details die het verschil maken. Geraadpleegd op 15 november 2019, van </li>
+              <a href="https://medium.com/@marilledekaste/micro-interacties-het-zijn-de-kleine-details-die-het-verschil-maken-ac2b82978b58" target="blank">https://medium.com/@marilledekaste/micro-interacties-het-zijn-de-kleine-details-die-het-verschil-maken-ac2b82978b58</a>
+              <li>Willenskomer, I. (2016, April 27). 5 Mistakes to Avoid When Designing Micro-interactions. Retrieved November 22, 2019, from </li>
+              <a href="https://medium.com/ux-in-motion/5-mistakes-to-avoid-when-designing-micro-interactions-a6f638ee6a86" target="blank">https://medium.com/ux-in-motion/5-mistakes-to-avoid-when-designing-micro-interactions-a6f638ee6a86</a>
+              </ul>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+
       <footer class="page-footer font-small">
         <div class="footer-copyright text-center py-3">© 2019 Copyright:
           <a href="#"> Dennis Smits & Jason van Schaik</a>
