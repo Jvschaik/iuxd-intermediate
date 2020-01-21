@@ -6,6 +6,11 @@
   font-family: 'Poppins', sans-serif;
 }
 
+body {
+	overflow-y: scroll;
+  overflow-x: hidden;
+}
+
 /* .nav-link,
 .navbar-brand {
     color: black !important;
@@ -244,4 +249,24 @@
 .navigation__checkbox:checked+.navigation__button .navigation__icon::after {
   top: 0;
   transform: rotate(-135deg);
+}
+ 
+.bronnen ul {
+  padding-left: 0;
+}
+.bronnen li {
+  margin-top: 1rem;
+  list-style: none;
+}
+
+.bronnen h1 {
+  margin-bottom: 4rem;
+}
+
+.bronnen a {
+  color: #1d1465b3;
+}
+
+.bronnen a:hover {
+  color: #06012eb3;
 }
